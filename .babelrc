@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "useBuiltIns": "usage",
+        "targets": {
+          "browsers": [
+            "last 1 version",
+            "> 0.25%",
+            "maintained node versions",
+            "not dead"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    ["babel-plugin-styled-components", { "ssr": true, "displayName": false }],
+    ["import", { "libraryName": "antd", "style": "css" }],
+    ["lodash"],
+    ["babel-plugin-root-import"]
+  ]
+}

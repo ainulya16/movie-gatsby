@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyBenefit /> should match the snapshot 1`] = `
+.c1 {
+  width: 100%;
+}
+
+.c0 .titleBenefit {
+  text-align: center;
+}
+
+.c0 .titleBenefit div:nth-child(1) {
+  color: #d31145;
+}
+
+.c0 .titleBenefit div:nth-child(2) {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="keyBenefitContent"
+  >
+    <div
+      className="titleBenefit"
+    >
+      <div>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    style={null}
+  />
+</div>
+`;

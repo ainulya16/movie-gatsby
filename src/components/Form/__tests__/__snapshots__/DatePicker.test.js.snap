@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component should render StyledFormItem styles correctly 1`] = `
+.c0 > .ant-form-item-control-wrapper > .ant-form-item-control.has-error > span > input {
+  border: 1 px solid #FF5500;
+}
+
+.c0 .ant-calendar-picker-input {
+  width: 335px;
+  height: 40px !important;
+  font: normal 14px "AIABody",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  color: #797979 !important;
+  background-color: #EEF0F2;
+}
+
+<div
+  className="ant-row ant-form-item c0"
+>
+  <div
+    className="ant-col ant-form-item-control-wrapper"
+  >
+    <div
+      className="ant-form-item-control"
+    >
+      <span
+        className="ant-form-item-children"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render StyledInput styles correctly 1`] = `
+.c1 .ant-calendar-picker-icon {
+  display: none;
+}
+
+.c1 .ant-calendar-picker-clear {
+  display: none;
+}
+
+.c1 input {
+  font: normal 16px 'AIAMedium',Arial,'Helvetica Neue',Helvetica,sans-serif;
+  border: unset;
+  background-color: #eef0f1;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 17px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NSA0NSI+PHBvbHlnb24gZmlsbD0iIzU5NkM4MCIgcG9pbnRzPSIxMi42IDYuNCAxMi42IDE0LjkgMTUuNCAxNC45IDE1LjQgMTIuMSAyOS42IDEyLjEgMjkuNiA5LjIgMTUuNCA5LjIgMTUuNCA2LjQgIi8+PHJlY3QgeD0iMTIuNiIgeT0iMjMuNCIgZmlsbD0iIzU5NkM4MCIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIyLjgiLz48cmVjdCB4PSIxOC4zIiB5PSIyMy40IiBmaWxsPSIjNTk2QzgwIiB3aWR0aD0iMi44IiBoZWlnaHQ9IjIuOCIvPjxyZWN0IHg9IjIzLjkiIHk9IjIzLjQiIGZpbGw9IiM1OTZDODAiIHdpZHRoPSIyLjgiIGhlaWdodD0iMi44Ii8+PHJlY3QgeD0iMjkuNiIgeT0iMjMuNCIgZmlsbD0iIzU5NkM4MCIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIyLjgiLz48cmVjdCB4PSIxMi42IiB5PSIyOS4xIiBmaWxsPSIjNTk2QzgwIiB3aWR0aD0iMi44IiBoZWlnaHQ9IjIuOCIvPjxyZWN0IHg9IjE4LjMiIHk9IjI5LjEiIGZpbGw9IiM1OTZDODAiIHdpZHRoPSIyLjgiIGhlaWdodD0iMi44Ii8+PHJlY3QgeD0iMjMuOSIgeT0iMjkuMSIgZmlsbD0iIzU5NkM4MCIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIyLjgiLz48cmVjdCB4PSIyOS42IiB5PSIyOS4xIiBmaWxsPSIjNTk2QzgwIiB3aWR0aD0iMi44IiBoZWlnaHQ9IjIuOCIvPjxwYXRoIGZpbGw9IiM1OTZDODAiIGQ9Ik0zOC4xIDE5LjJ2LTIuOFY5LjJoLTQuM1Y2LjRoLTIuOHY4LjVoMi44di0yLjhoMS40djQuM0g5Ljh2LTQuM2gxLjRWOS4ySDYuOXY3LjEgMi44IDE5LjloMzEuMlYxOS4yek0zNS4zIDM2LjJIOS44VjE5LjJoMjUuNVYzNi4yeiIvPjwvc3ZnPg==');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) 50%;
+  background-size: 20px;
+}
+
+.c1 input:focus {
+  border: 1px solid #b3b1a8;
+}
+
+.c1 .ant-calendar-selected-day div {
+  background-color: red !important;
+}
+
+.c1 .ant-calendar {
+  font: normal 16px 'AIAMedium',Arial,'Helvetica Neue',Helvetica,sans-serif;
+}
+
+.c1 .ant-calendar-date-input-wrap {
+  font: normal 16px 'AIAMedium',Arial,'Helvetica Neue',Helvetica,sans-serif;
+}
+
+.c0.c0 .ant-input {
+  padding: 8px 16px;
+  border-radius: 15px;
+  width: 335px;
+  height: 40px !important;
+  font: normal 14px "AIABody",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  line-height: 17px !important;
+  color: #797979 !important;
+  background-color: #EEF0F2;
+  font-weight: 400;
+  border: none !important;
+}
+
+.c0.c0 .ant-input:focus {
+  color: #797979 !important;
+  border: none !important;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+<span
+  className="c0 c1 ant-calendar-picker"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={Object {}}
+>
+  <div
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onTouchStart={[Function]}
+  >
+    <input
+      className="ant-calendar-picker-input ant-input"
+      placeholder="Select date"
+      readOnly={true}
+      value=""
+    />
+    <i
+      aria-label="icon: calendar"
+      className="anticon anticon-calendar ant-calendar-picker-icon"
+    >
+      <svg
+        aria-hidden="true"
+        className=""
+        data-icon="calendar"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+        />
+      </svg>
+    </i>
+  </div>
+</span>
+`;

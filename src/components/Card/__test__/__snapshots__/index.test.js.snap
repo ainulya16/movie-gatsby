@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card components should match the snapshot 1`] = `
+@media (max-width:992px) {
+  .c0 {
+    padding: 0 40px;
+  }
+}
+
+<div
+  className="text-center c0"
+>
+  
+  
+  <h1>
+    test
+  </h1>
+  <div>
+    <p>
+      description
+    </p>
+  </div>
+</div>
+`;

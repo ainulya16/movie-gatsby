@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section should match the snapshot 1`] = `
+.c0 {
+  min-height: 380px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 0px;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .c0 {
+    padding: 10px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .c0 {
+    padding: 14px;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    padding: 14px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="ant-row-flex ant-row-flex-center ant-row-flex-middle"
+  >
+    <div
+      className="ant-col ant-col-xs-23 ant-col-sm-23 ant-col-md-20 ant-col-lg-20 ant-col-xl-20"
+    >
+      Some Section
+    </div>
+  </div>
+</div>
+`;

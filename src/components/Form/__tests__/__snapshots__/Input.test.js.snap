@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component should render StyledFormItem styles correctly 1`] = `
+.c0 > .ant-form-item-control-wrapper > .ant-form-item-control.has-error > span > input {
+  border: 1px solid #FF5500;
+}
+
+<div
+  className="ant-row ant-form-item c0"
+>
+  <div
+    className="ant-col ant-form-item-control-wrapper"
+  >
+    <div
+      className="ant-form-item-control"
+    >
+      <span
+        className="ant-form-item-children"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render StyledInput styles correctly 1`] = `
+.c0.c0 {
+  min-width: 250px;
+  padding: 0px 16px;
+  border-radius: 0px;
+  font: normal 16px 'AIAMedium',Arial,'Helvetica Neue',Helvetica,sans-serif;
+  line-height: 2.5;
+  color: #B3B1A8;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  border: 1px solid #B3B1A8;
+}
+
+.c0.c0:focus {
+  color: #554344;
+  border: 1px solid #22A8DA;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media (max-width:576px) {
+  .c0.c0 {
+    width: 100%;
+  }
+}
+
+<input
+  className="ant-input c0"
+  disabled={false}
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  theme={
+    Object {
+      "color": Object {
+        "b2": "#FAF9F3",
+        "b3": "#F0EEE1",
+        "b5": "#B3B1A8",
+        "k": "#000000",
+        "p1": "#D31145",
+        "p2": "#596C80",
+        "p3": "#554344",
+        "p4": "#363E3F",
+        "s1": "#E86487",
+        "s2": "#FBBF56",
+        "s3": "#97CB5D",
+        "s4": "#46D3BD",
+        "s5": "#22A8DA",
+        "s6": "#9962D2",
+        "t2": "#B8123E",
+        "u2": "#FF5500",
+        "u3": "#405B70",
+        "u4": "#769FAB",
+        "w": "#FFFFFF",
+        "whatsapp": "#25d366",
+      },
+    }
+  }
+  type="text"
+  value=""
+/>
+`;

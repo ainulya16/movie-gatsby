@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDiscoverContainer should match the snapshot 1`] = `
+.c0 {
+  margin: 48px 0px 24px 0px;
+}
+
+<div
+  className="c0"
+/>
+`;

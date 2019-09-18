@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ask Icon should match snapshot 1`] = `
+.c0 {
+  display: inline-block;
+  background: #596c80;
+  color: white;
+  font-weight: bolder;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+<div
+  className="c0"
+  style={Object {}}
+>
+  <span
+    style={Object {}}
+  >
+    ?
+  </span>
+</div>
+`;

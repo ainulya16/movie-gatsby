@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component Form component should match the snapshot 1`] = `
+<form
+  className="ant-form ant-form-horizontal"
+  onSubmit={[MockFunction]}
+>
+   
+   
+  <h1>
+    test
+  </h1>
+   
+</form>
+`;

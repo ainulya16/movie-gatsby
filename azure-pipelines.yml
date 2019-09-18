@@ -1,0 +1,27 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - master
+      - develop
+
+pr:
+  branches:
+    include:
+      - master
+      - develop
+
+resources:
+  repositories:
+    - repository: devops-template
+      type: git
+      name: aiadirect-devops
+      ref: refs/heads/master
+
+variables:
+  projectName: ecommerce-frontend
+
+jobs:
+  - template: pipeline-templates/pipeline-job/frontend-pipeline.yml@devops-template
+    parameters:
+      projectName: $(projectName)

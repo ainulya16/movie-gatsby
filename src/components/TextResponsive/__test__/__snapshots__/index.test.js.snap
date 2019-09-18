@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Responsive should match the snapshot 1`] = `
+.c0 {
+  margin: 5px 0px;
+}
+
+.c1 {
+  font-size: 12pt;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    font-size: 12pt;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .c1 {
+    font-size: 12pt;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .c1 {
+    font-size: 14pt;
+  }
+}
+
+@media (min-width:1200px) {
+  .c1 {
+    font-size: 14pt;
+  }
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    Some Children
+  </span>
+</div>
+`;

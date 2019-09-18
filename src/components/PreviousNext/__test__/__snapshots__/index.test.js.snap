@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Previous Next should match snapshot 1`] = `
+.c1 {
+  min-width: 250px;
+  width: 250px;
+  text-align: center;
+}
+
+.c3 {
+  height: 45px;
+  font-family: 'AIAMedium';
+  text-transform: none;
+  font-size: 1.1em;
+  border: 0px;
+  display: inline-block;
+  background: #D31145;
+  -webkit-transition: width 0.3s ease,min-width 0.3s ease,background-color 0.3s ease,border-radius 0.3s ease,border 0.3s ease,display 0.3s ease;
+  transition: width 0.3s ease,min-width 0.3s ease,background-color 0.3s ease,border-radius 0.3s ease,border 0.3s ease,display 0.3s ease;
+  color: tertiary;
+  background-color: #FFF;
+  background-image: linear-gradient(to bottom,#d31145,#D31145,#d31145);
+  border: none;
+}
+
+.c3:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: scale 0.1s ease-in-out;
+  transition: scale 0.1s ease-in-out;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:disabled {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.4;
+  -webkit-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);
+}
+
+.c5 {
+  height: 45px;
+  font-family: 'AIAMedium';
+  text-transform: none;
+  font-size: 1.1em;
+  border: 0px;
+  display: inline-block;
+  background: #D31145;
+  -webkit-transition: width 0.3s ease,min-width 0.3s ease,background-color 0.3s ease,border-radius 0.3s ease,border 0.3s ease,display 0.3s ease;
+  transition: width 0.3s ease,min-width 0.3s ease,background-color 0.3s ease,border-radius 0.3s ease,border 0.3s ease,display 0.3s ease;
+  color: primary;
+  background-color: #FFF;
+  background-image: linear-gradient(to bottom,#d31145,#D31145,#d31145);
+  border: none;
+}
+
+.c5:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: scale 0.1s ease-in-out;
+  transition: scale 0.1s ease-in-out;
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c5:disabled {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.4;
+  -webkit-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);
+}
+
+.c2 {
+  color: #fff;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient( 180deg,rgba(2,0,36,1) 0%,rgba(233,24,80,1) 0%,rgba(200,11,62,1) 100% );
+  height: 50px !important;
+  font-weight: bold;
+  max-width: unset !important;
+  display: inline-block;
+  margin: auto;
+  padding-right: 68px;
+  padding-left: 68px;
+  margin-inline-end: 30px;
+  border: 1px solid black;
+}
+
+.c4 {
+  color: #fff;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient( 180deg,rgba(2,0,36,1) 0%,rgba(233,24,80,1) 0%,rgba(200,11,62,1) 100% );
+  height: 50px !important;
+  font-weight: bold;
+  max-width: unset !important;
+  display: inline-block;
+  margin: auto;
+  padding-right: 68px;
+  padding-left: 68px;
+  margin-inline-start: 30px;
+}
+
+.c0 {
+  text-align: center;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    style={Object {}}
+  >
+    <button
+      className="btn c2 c3"
+      color="tertiary"
+      disabled={false}
+      loading={false}
+      onClick={null}
+      radius={null}
+    >
+      <div
+        className="child"
+      >
+        Back
+      </div>
+    </button>
+  </div>
+  <div
+    className="c1"
+    style={Object {}}
+  >
+    <button
+      className="btn c4 c5"
+      color="primary"
+      disabled={false}
+      loading={false}
+      onClick={null}
+      radius={null}
+    >
+      <div
+        className="child"
+      >
+        Next
+      </div>
+    </button>
+  </div>
+</div>
+`;

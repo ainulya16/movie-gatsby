@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quick Section should match the snapshot 1`] = `
+.c1 {
+  min-width: 250px;
+  width: 250px;
+  text-align: center;
+}
+
+.c2 {
+  height: 45px;
+  font-family: 'AIAMedium';
+  text-transform: none;
+  font-size: 14px;
+  border: 0px;
+  display: inline-block;
+  background: #D31145;
+  -webkit-transition: width 0.3s ease,min-width 0.3s ease,background-color 0.3s ease,border-radius 0.3s ease,border 0.3s ease,display 0.3s ease;
+  transition: width 0.3s ease,min-width 0.3s ease,background-color 0.3s ease,border-radius 0.3s ease,border 0.3s ease,display 0.3s ease;
+  color: primary;
+  background-color: #FFF;
+  background-image: linear-gradient(to bottom,#d31145,#D31145,#d31145);
+  border: none;
+}
+
+.c2:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: scale 0.1s ease-in-out;
+  transition: scale 0.1s ease-in-out;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c2:disabled {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.4;
+  -webkit-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);
+}
+
+.c0 {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "position": "fixed",
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    className="ant-row"
+  >
+    <div
+      className="ant-col ant-col-xs-6 ant-col-sm-6"
+    >
+      <div
+        className="c1"
+        style={Object {}}
+      >
+        <button
+          className="btn  c2"
+          color="primary"
+          disabled={false}
+          loading={false}
+          radius={null}
+        >
+          <div
+            className="child"
+          >
+            Cart
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      className="ant-col ant-col-xs-6 ant-col-sm-6"
+    >
+      <div
+        className="c1"
+        style={Object {}}
+      >
+        <button
+          className="btn  c2"
+          color="primary"
+          disabled={false}
+          loading={false}
+          radius={null}
+        >
+          <div
+            className="child"
+          >
+            Share
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      className="ant-col ant-col-xs-6 ant-col-sm-6"
+    >
+      <div
+        className="c1"
+        style={Object {}}
+      >
+        <button
+          className="btn  c2"
+          color="primary"
+          disabled={false}
+          loading={false}
+          radius={null}
+        >
+          <div
+            className="child"
+          >
+            Chat
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      className="ant-col ant-col-xs-6 ant-col-sm-6"
+    >
+      <div
+        className="c1"
+        style={Object {}}
+      >
+        <button
+          className="btn  c2"
+          color="primary"
+          disabled={false}
+          loading={false}
+          radius={null}
+        >
+          <div
+            className="child"
+          >
+            Advisor
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

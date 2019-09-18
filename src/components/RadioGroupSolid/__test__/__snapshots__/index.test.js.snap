@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroupSolid /> should match with snapshot 1`] = `
+.c0 .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background: #d31145;
+  border-color: #d31145;
+}
+
+.c0 .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background: #d31145;
+  border-color: #d31145;
+  box-shadow: -1px 0 0 0 #d31145;
+}
+
+.c0 .ant-radio-button-wrapper {
+  border-radius: unset !important;
+  width: 150px;
+  text-align: center;
+}
+
+.c0 .ant-radio-button-wrapper-checked {
+  box-shadow: -1px 0 0 0 #d31145;
+}
+
+.c0 .ant-radio-button-wrapper {
+  margin-right: 10px;
+  font-family: 'AIABody',Arial,'Helvetica Neue',Helvetica,sans-serif;
+  font-size: 15px;
+}
+
+.c0 .ant-radio-button-wrapper:hover {
+  color: rgba(0,0,0,0.65);
+}
+
+<div
+  className="radioGroupWrapper c0"
+>
+  <div
+    className="ant-radio-group ant-radio-group-solid"
+  >
+    <label
+      className="ant-radio-button-wrapper"
+    >
+      <span
+        className="ant-radio-button"
+        style={Object {}}
+      >
+        <input
+          checked={false}
+          className="ant-radio-button-input"
+          name="a"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="electronic"
+        />
+        <span
+          className="ant-radio-button-inner"
+        />
+      </span>
+      <span>
+        Electronic
+      </span>
+    </label>
+    <label
+      className="ant-radio-button-wrapper"
+    >
+      <span
+        className="ant-radio-button"
+        style={Object {}}
+      >
+        <input
+          checked={false}
+          className="ant-radio-button-input"
+          name="a"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="hardCopy"
+        />
+        <span
+          className="ant-radio-button-inner"
+        />
+      </span>
+      <span>
+        Hardcopy
+      </span>
+    </label>
+  </div>
+</div>
+`;

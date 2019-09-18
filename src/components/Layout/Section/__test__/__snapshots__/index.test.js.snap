@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Layout renders Section default styles 1`] = `
+.c0 h2 {
+  font-size: calc(18px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 h2 {
+    margin-bottom: 20px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <h2
+    className="margin-bottom-m null"
+    style={null}
+  >
+    title
+  </h2>
+  <p>
+    Test
+  </p>
+</div>
+`;

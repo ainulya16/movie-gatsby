@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Component should be match snapshot 1`] = `
+.c0.c0 {
+  color: #554344;
+  font-family: 'AIABody',Arial,'Helvetica Neue',Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+<label
+  className="c0"
+>
+  Label
+</label>
+`;
+
+exports[`Label Component should be red as error message style 1`] = `
+.c0.c0 {
+  color: #554344;
+  font-family: 'AIABody',Arial,'Helvetica Neue',Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FF5500;
+}
+
+<label
+  className="c0"
+>
+  Label
+</label>
+`;

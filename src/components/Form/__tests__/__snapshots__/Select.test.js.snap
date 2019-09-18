@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component should render StyledFormItem styles correctly 1`] = `
+.c0 div span {
+  width: 100% !important;
+}
+
+.c0 div select {
+  width: 335px;
+}
+
+<div
+  className="ant-row ant-form-item c0"
+>
+  <div
+    className="ant-col ant-form-item-control-wrapper"
+  >
+    <div
+      className="ant-form-item-control"
+    >
+      <span
+        className="ant-form-item-children"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Component should render StyledInput styles correctly 1`] = `
+.c0 {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuNCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0NSA0NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUgNDU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRDMxNTQ2O30KCS5zdDF7ZmlsbDojNTk2QzgwO30KCS5zdDJ7ZmlsbDojOENDNjNGO30KCS5zdDN7ZmlsbDojRjc5MzFFO30KCS5zdDR7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGc+Cgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMjIuNTIsMjguMjNsMTAuNTUtMTAuNTFsLTEwLjU1LDBsLTEwLjU1LDBMMjIuNTIsMjguMjN6IE0yNi4yMSwyMC41NmwtMy42OSwzLjY3bC0zLjY4LTMuNjdsMy42OCwwCgkJTDI2LjIxLDIwLjU2eiIvPgo8L2c+Cjwvc3ZnPgo=');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) 50%;
+  background-size: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 40px;
+  min-width: 250px;
+  width: 250px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: normal 14px 'AIAMedium',Arial,'Helvetica Neue',Helvetica,sans-serif;
+  font-weight: 400;
+  padding-right: 24px;
+  text-overflow: ellipsis;
+  border-radius: 17px;
+  background-color: #eef0f1;
+  border: none;
+  color: #333;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:after {
+  content: 'e91b';
+}
+
+.c0.c0 {
+  -webkit-appearance: none;
+  border-radius: 15px;
+  width: 100%;
+  height: 40px !important;
+  font: normal 14px "AIABody",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  padding: 8px 16px;
+  margin-top: 5px;
+  color: #797979 !important;
+  background-color: #EEF0F2;
+  background-image: url('../../../icons/arrow-down.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  border: none !important;
+}
+
+.c0.c0:focus {
+  color: #797979 !important;
+  border: none !important;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media (max-width:576px) {
+  .c0.c0 {
+    width: 100%;
+  }
+}
+
+<select
+  className="c0"
+/>
+`;

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact should be match snapshot 1`] = `
+.c1 h2 {
+  font-size: calc(18px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.c0 h2 {
+  text-align: left;
+  font-family: 'AIACondensed';
+  font-size: 16px;
+  color: #bfbdb6;
+  margin-bottom: 13px;
+}
+
+.c0 h2 a {
+  color: #393d3e;
+  font-size: 22px;
+}
+
+.c0 .description {
+  color: #bfbdb6;
+  font-size: 12px;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.23px;
+  -moz-letter-spacing: 0.23px;
+  -ms-letter-spacing: 0.23px;
+  letter-spacing: 0.23px;
+  font-family: AIARegular;
+  color: #333333;
+  text-transform: unset;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .c0 {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width:767px) {
+  .c0 {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width:991px) {
+  .c0 h2,
+  .c0 .description {
+    text-align: center;
+  }
+
+  .c0 h2 {
+    margin-bottom: 13px;
+  }
+
+  .c0 a {
+    display: block;
+    margin-top: 9px;
+  }
+}
+
+<div
+  className="c0 c1"
+>
+  <h2
+    className="go-to c2"
+    fontFamily="AIARegular"
+  >
+    GO TO
+    <a
+      href="https://www.aia.com.sg/en/index.html"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+       
+      AIA.COM
+    </a>
+  </h2>
+  <p
+    className="description c2"
+    fontFamily="AIARegular"
+  >
+    Visit our corporate site to learn more about AIA
+    <br />
+    Copyright © 2019 AIA Group Limited and its subsidiaries. All rights reserved
+  </p>
+</div>
+`;
