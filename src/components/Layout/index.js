@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Container from './Container';
 import Section from './Section';
+import Navbar from './Navbar';
 
 const BaseLayout = styled(AntDLayout)`
   && {
@@ -22,40 +23,9 @@ const Header = styled(AntDLayout.Header)`
     padding: 0;
     width: 100%;
     z-index: 999;
+    background: rgba(255,255,255,0.5);
     a {
       display: inherit;
-    }
-    a,img {
-      width: 42px;
-      height: 42px;
-    }
-
-    @media (max-width: 768px) {
-      nav {
-        height: 54px;
-        a,
-        img {
-          width: 34px;
-          height: 34px;
-        }
-      }
-      min-height: 54px;
-      line-height: 54px;
-      height: 54px;
-    }
-
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
-      nav {
-        height: 54px;
-        a,
-        img {
-          width: 34px;
-          height: 34px;
-        }
-      }
-      min-height: 54px;
-      line-height: 54px;
-      height: 54px;
     }
   }
 `;
@@ -65,11 +35,11 @@ const Content = styled(AntDLayout.Content)`
   && {
     background: white;
     margin: '0 auto';
-    padding-top: ${props => (props.hasnavbar ? '80px' : 0)};
+    /* padding-top: ${props => (props.hasnavbar ? '80px' : 0)}; */
     background: white;
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
       padding-top: ${props => (props.hasnavbar ? '54px' : 0)};
-    }
+    } */
   }
 `;
 
@@ -82,20 +52,6 @@ const BaseFooter = styled(AntDLayout.Footer)`
 // const pathFaq = '/PA100/faqs';
 
 const Layout = ({ description, lang, meta, title, showNavbar, children }) => {
-  const handleBack = () => {
-    window.history.back();
-  };
-  const renderBackButton = () => {
-    return (
-      <BackIcon
-        iconName="preview"
-        shadow
-        circle
-        size="s"
-        onClick={handleBack}
-      />
-    );
-  };
   return (
     <StaticQuery
       query={graphql`
@@ -116,11 +72,6 @@ const Layout = ({ description, lang, meta, title, showNavbar, children }) => {
       `}
       render={({ site }) => {
         const metaDescription = description || site.siteMetadata.description;
-        const { pathWithBackButton } = site.siteMetadata;
-        const childrenFooter = {
-          // copyright : 'AIA ©2019 Created by AIA Teams',
-          urlTermsOfUse : '/PA100/terms-of-use'
-          }
         return (
           <React.Fragment>
             <Helmet
@@ -171,7 +122,7 @@ const Layout = ({ description, lang, meta, title, showNavbar, children }) => {
             <BaseLayout>
               {showNavbar && (
                 <Header>
-                  {/* <Nav renderIconLeft={showBackButton && renderBackButton} /> */}
+                  <Navbar menuLinks={site.siteMetadata.menuLinks} />
                 </Header>
               )}
               <Content hasnavbar={showNavbar}>{children}</Content>

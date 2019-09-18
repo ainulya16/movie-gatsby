@@ -1,25 +1,17 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import { Container, Section } from '../components/Layout';
-import { Image } from '../components/Image';
-import SEO from '../components/Seo';
+import Layout from '../components/Layout';
 
-const NotFoundPage = (props) => {
-  console.log(props)
+const title = "Movie";
+
+const Home = props => {
   return (
-  <Container>
-    <SEO title="404: Not found" />
-    <Section className="flex-center" style={{ minHeight: '500px' }}>
-      <div className="text-center">
-        <Image
-          filename="aia-logo.png"
-          style={{ width: '100px', height: '100x', margin: 'auto' }}
-        />
-        <h2 className="margin-bottom-l margin-top-xl">PAGE NOT FOUND</h2>
-        <p>You just hit a route that doesn&#39;t exist.</p>
-        <p>{props.text}</p>
+    <Layout title={title}>
+      <div>
+        <p>Banner</p>
       </div>
-    </Section>
-  </Container>
-)};
+    </Layout>
+  );
+};
 
-export default NotFoundPage;
+export default Home;

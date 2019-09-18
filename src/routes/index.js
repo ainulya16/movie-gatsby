@@ -6,8 +6,8 @@ module.exports = [
     component: path.resolve('src/pages/index.js'),
   },
   {
-    path: '/detail/*',
-    matchPath: '/detail/:id',
+    path: '/movie/*',
+    matchPath: '/movie/:id',
     component: path.resolve('src/pages/index.js'),
   },
   {

@@ -4,11 +4,9 @@ module.exports = {
     description: 'Frontend Web Skeleton',
     author: '@aia',
     menuLinks: [
-      { name: 'our product', link: '/' },
-      { name: 'life matters', link: '/' },
-      { name: 'about aia', link: '/' },
-      { name: 'help & support', link: '/' },
-      { name: 'my aia', link: '/' },
+      { name: 'Home', link: '/' },
+      { name: 'Movies', link: '/' },
+      { name: 'Series', link: '/' },
     ],
     pathWithBackButton: [
       '/PA100/faqs',
