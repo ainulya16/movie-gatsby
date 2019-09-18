@@ -125,7 +125,7 @@ const Layout = ({ description, lang, meta, title, showNavbar, children }) => {
                   <Navbar menuLinks={site.siteMetadata.menuLinks} />
                 </Header>
               )}
-              <Content hasnavbar={showNavbar}>{children}</Content>
+              <Content>{children}</Content>
               {/* <BaseFooter>
               </BaseFooter> */}
             </BaseLayout>
