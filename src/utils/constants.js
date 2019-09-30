@@ -26,4 +26,7 @@ export const theme = {
   },
 };
 
+export const baseUrl = 'https://api.themoviedb.org/3/';
+export const apiKey = '9c823db90d69bba24bac43c699f4263a';
+
 export default null;
